@@ -52,7 +52,7 @@ App.corePackages = {
     "oauth"
   ],
   "accounts-password": [
-    "npm-bcrypt@0.7.8-winr.3",
+    "npm-bcrypt",
     "accounts-base",
     "srp",
     "sha",
@@ -363,7 +363,7 @@ App.corePackages = {
     "url"
   ],
   "oauth-encryption": [
-    "npm-node-aes-gcm@0.1.4-winr.1",
+    "npm-node-aes-gcm",
     "underscore"
   ],
   "oauth1": [
@@ -476,7 +476,7 @@ App.corePackages = {
   ],
   "test-in-browser": [
     "tinytest",
-    "bootstrap@1.0.1",
+    "bootstrap",
     "underscore",
     "session",
     "reload",
