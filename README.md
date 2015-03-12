@@ -2,7 +2,7 @@
 
 Visualization of MeteorJS packages dependencies.
 
-[![Core Visualization](http://i.imgur.com/ryWUbWl.png)](http://core-visualization.meteor.com/)
+[![Core Visualization](http://i.imgur.com/q45tXMB.png)](http://core-visualization.meteor.com/)
 
 
 # License
