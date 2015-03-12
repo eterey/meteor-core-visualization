@@ -27,8 +27,8 @@ Template.CoreVisualization.created = function () {
 
 Template.CoreVisualization.rendered = function () {
   var graph = new GraphBuilder().build(App.corePackages);
-  // Instantiate sigma:
-  new sigma({
+  // Init sigma:
+  var sg = new sigma({
     graph: {
       nodes: graph.nodes,
       edges: graph.edges
@@ -38,6 +38,7 @@ Template.CoreVisualization.rendered = function () {
       type: 'canvas'
     }
   });
+  sigma.plugins.dragNodes(sg, sg.renderers[0]);;
 };
 
 Template.CoreVisualization.destroyed = function () {
